@@ -1,7 +1,12 @@
 [project]
 name = "buildbuddy"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI-powered hardware repair and design assistant using Claude API"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "anthropic>=0.54.0",
+    "pillow>=11.2.1",
+    "python-dotenv>=1.1.0",
+    "streamlit>=1.46.0",
+]
